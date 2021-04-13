@@ -1,0 +1,44 @@
+/* tags */
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 8rem;
+    margin: 0%;
+    color:rgb(41, 192, 154);
+    text-shadow: 10px 4px #000000;
+}
+
+p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    color:rgb(41, 192, 154);
+}
+
+img{
+    width: 75%;
+}
+
+body{
+    background-color: rgb(46, 53, 56);
+}
+
+footer{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ffff;
+}
+
+/* classes */
+.dice{
+    text-align: center;
+    display: inline-block;
+}
+
+.container{
+    text-align: center;
+    margin: 5% 0%;
+}
+
+.dices{
+    margin-top: 1%;
+}
