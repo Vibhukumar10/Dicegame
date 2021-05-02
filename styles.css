@@ -9,7 +9,7 @@ h1{
 
 p{
     font-family: 'Indie Flower', cursive;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color:rgb(41, 192, 154);
 }
 
@@ -41,4 +41,26 @@ footer{
 
 .dices{
     margin-top: 1%;
+}
+
+@media only screen and (max-width: 600px){
+    h1{
+        font-family: 'Lobster', cursive;
+        font-size: 4rem;
+        margin: 25% 0 20%;
+        color:rgb(41, 192, 154);
+        text-shadow: 10px 4px #000000;
+    }
+    .dice{
+        text-align: center;
+        display: inline-block;
+        width: 225px;
+    }
+    footer{
+        margin-top: 20%;
+    }
+
+    img{
+        width: 50%;
+    }
 }
