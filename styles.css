@@ -45,22 +45,21 @@ footer{
 
 @media only screen and (max-width: 600px){
     h1{
-        font-family: 'Lobster', cursive;
-        font-size: 4rem;
+        font-size: 3rem;
         margin: 25% 0 20%;
-        color:rgb(41, 192, 154);
-        text-shadow: 10px 4px #000000;
-    }
-    .dice{
-        text-align: center;
-        display: inline-block;
-        width: 225px;
     }
     footer{
+        font-size: 1rem;
         margin-top: 20%;
     }
-
     img{
         width: 50%;
     }
+    p{
+        font-size: 1.5rem;
+    }
+    .dice{
+        width: 150px;
+    }
+    
 }
